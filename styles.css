@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(172, 172, 172);
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+div.container {
+    width: 500px;
+    margin: auto;
+}
+div.post {
+    background-color: azure;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+div.post img {
+    width: 100%;
+}
+img {
+    width: 600px;
+    height: 400px;
+}
+div.post p, div.post i {
+    padding: 5px;
+    margin: 0;
+}
+div.post .post-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+div.post .post-header div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+div.post .post-header div:first-child p {
+    width: 100%;
+}
+div.post .post-header div:last-child p {
+    display: flex;
+    padding: 10px;
+    text-align: right;
+    margin-left: auto;
+}
+div.text {
+    padding: 10px;
+}
+div.text i {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+i {
+    font-size: 30px;
+}
+p {
+    font-family: Open Sans;
+}
+.iconos {
+    width: 100%;
+    display: flex;
+}
+.iconos i:last-child {
+    margin-left: auto;
+}
